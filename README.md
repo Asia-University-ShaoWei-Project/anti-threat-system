@@ -4,3 +4,7 @@
 - Platform: Cordova
 - Programming language: Python, PHP,
 - Device: Raspberry pi 3
+
+## App demo
+
+- ![img](./img/app-demo.png)
