@@ -1,0 +1,12 @@
+CREATE TABLE infos(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  date DATE,
+  time TIME,
+);
+
+
+CREATE TABLE users(
+  ID VARCHAR(50) PRIMARY KEY,
+  password VARCHAR(50) NOT NULL,
+  token VARCHAR(50)
+);

@@ -1,0 +1,12 @@
+
+version: '3'
+
+services:
+  php_apache:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./php:/var/www/html
+    environment:
+      DB_FILE_NAME: ${DB_FILE_NAME}

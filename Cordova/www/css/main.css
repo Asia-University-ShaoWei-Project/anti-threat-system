@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: black;
+  color: #c5c5c5;
+  font-family: "Gugi", cursive;
+}
+
+.hr {
+  height: 2px;
+  width: 80%;
+  margin: 5% 10%;
+  background-color: #0e5fb8;
+}
+
+th {
+  border: 1px solid white;
+}
+
+i {
+  cursor: pointer;
+}
+
+/*.tr1{*/
+/*background-color: #b87c34;*/
+/*}*/
+/*.tr2{*/
+/*background-color: #a0692f;*/
+/*}*/
+tr:nth-child(even) {
+  background-color: #54575c;
+}
+
+td {
+  height: 35px;
+}
+
+#check_count {
+  font-size: 60px;
+  letter-spacing: 20px;
+  margin-top: 10%;
+}
+table {
+  width: 90%;
+  margin: 0 5%;
+  border: 1px solid #0e5fb8;
+  font-size: 16px;
+  text-align: center;
+}
